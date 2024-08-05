@@ -10,8 +10,10 @@ Esta es una demostración simple de cómo implementar JSON Web Tokens (JWT) en P
 - `api.php`: Maneja la autenticación y la gestión del JWT.
 - `login.php`: Proporciona una interfaz HTML para que los usuarios inicien sesión y creen un JWT.
 
-[Descargar video](/source/JWT.mp4)
-
+<video width="640" height="360" controls>
+  <source src="/source/JWT.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
 ## Descripción
 
 ### `api.php`
