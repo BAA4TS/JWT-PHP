@@ -1,0 +1,17 @@
+{
+    "name": "baa4t/www",
+    "description": "Prueba-JWT-en-php",
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baa4t\\Www\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BAA4TS"
+        }
+    ]
+}
