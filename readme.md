@@ -2,15 +2,15 @@
 
 Esta es una demostración simple de cómo implementar JSON Web Tokens (JWT) en PHP. El proyecto incluye dos archivos principales para mostrar los conceptos básicos del JWT:
 
-```
-1 - Al logearse por primera ves crea el token
-2 - Al logearse por segunda ves te muestra en consola los datos del token
-```
+1. **Al iniciar sesión por primera vez**: Se crea un token JWT.
+2. **Al iniciar sesión por segunda vez**: Se muestra en la consola los datos del token JWT.
+
+## Archivos
 
 - `api.php`: Maneja la autenticación y la gestión del JWT.
 - `login.php`: Proporciona una interfaz HTML para que los usuarios inicien sesión y creen un JWT.
 
-![Video de demostracion](/source/JWT.mp4)
+![Video de demostración](/source/JWT.mp4)
 
 ## Descripción
 
@@ -39,7 +39,7 @@ Este archivo es responsable de manejar la autenticación de usuarios y la genera
 Este archivo ofrece un formulario simple para que los usuarios puedan iniciar sesión. El formulario envía una solicitud POST a `api.php` con las credenciales del usuario.
 
 - **Formulario de Inicio de Sesión:** Incluye campos para nombre de usuario y contraseña.
-- **JavaScript:** Maneja el envío del formulario con fetch a `api.php`. La respuesta del servidor (ya sea un error o el JWT) se muestra en la consola del navegador.
+- **JavaScript:** Maneja el envío del formulario con `fetch` a `api.php`. La respuesta del servidor (ya sea un error o el JWT) se muestra en la consola del navegador.
 
 ## Instalación
 
